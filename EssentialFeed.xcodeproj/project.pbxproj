@@ -80,6 +80,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E3D0E1D28892E3E004DCEB6 /* FeedFeature */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = FeedFeature;
+			sourceTree = "<group>";
+		};
 		8EB49D6A288658A60062DEA8 = {
 			isa = PBXGroup;
 			children = (
@@ -105,6 +112,7 @@
 			children = (
 				8EB49D76288658A60062DEA8 /* AppDelegate.swift */,
 				8E3D0E1928892BF5004DCEB6 /* FeedItem.swift */,
+				8E3D0E1D28892E3E004DCEB6 /* FeedFeature */,
 				8E3D0E1B28892DAF004DCEB6 /* FeedLoader.swift */,
 				8EB49D78288658A60062DEA8 /* SceneDelegate.swift */,
 				8EB49D7A288658A60062DEA8 /* ViewController.swift */,
