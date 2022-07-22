@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E00D9EF288A76CB00580B05 /* RemoteFeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E00D9EE288A76CB00580B05 /* RemoteFeedLoader.swift */; };
 		8E3D0E1A28892BF5004DCEB6 /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D0E1928892BF5004DCEB6 /* FeedItem.swift */; };
 		8E3D0E1C28892DAF004DCEB6 /* FeedLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D0E1B28892DAF004DCEB6 /* FeedLoader.swift */; };
 		8E3D0E2328892FD4004DCEB6 /* RemoteFeedLoaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E3D0E2228892FD4004DCEB6 /* RemoteFeedLoaderTests.swift */; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E00D9EE288A76CB00580B05 /* RemoteFeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoader.swift; sourceTree = "<group>"; };
 		8E3D0E1928892BF5004DCEB6 /* FeedItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
 		8E3D0E1B28892DAF004DCEB6 /* FeedLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedLoader.swift; sourceTree = "<group>"; };
 		8E3D0E2228892FD4004DCEB6 /* RemoteFeedLoaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteFeedLoaderTests.swift; sourceTree = "<group>"; wrapsLines = 0; };
@@ -82,6 +84,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8E00D9ED288A76AD00580B05 /* FeedAPI */ = {
+			isa = PBXGroup;
+			children = (
+				8E00D9EE288A76CB00580B05 /* RemoteFeedLoader.swift */,
+			);
+			path = FeedAPI;
+			sourceTree = "<group>";
+		};
 		8E3D0E1D28892E3E004DCEB6 /* FeedFeature */ = {
 			isa = PBXGroup;
 			children = (
@@ -115,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				8EB49D76288658A60062DEA8 /* AppDelegate.swift */,
+				8E00D9ED288A76AD00580B05 /* FeedAPI */,
 				8E3D0E1D28892E3E004DCEB6 /* FeedFeature */,
 				8EB49D78288658A60062DEA8 /* SceneDelegate.swift */,
 				8EB49D7A288658A60062DEA8 /* ViewController.swift */,
@@ -279,6 +290,7 @@
 				8EB49D7B288658A60062DEA8 /* ViewController.swift in Sources */,
 				8EB49D77288658A60062DEA8 /* AppDelegate.swift in Sources */,
 				8E3D0E1C28892DAF004DCEB6 /* FeedLoader.swift in Sources */,
+				8E00D9EF288A76CB00580B05 /* RemoteFeedLoader.swift in Sources */,
 				8EB49D79288658A60062DEA8 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
